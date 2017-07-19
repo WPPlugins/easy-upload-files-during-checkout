@@ -1,0 +1,89 @@
+/* CSS Document */
+.admin_page_easy_ufdc #content,
+.admin_page_easy_ufdc #wpbody-content > .wrap,
+#ufdc_settings,
+#ufdc_settings #poststuff,
+.ufdc-settings{
+	float:left;
+	width:100%;	
+}
+.admin_page_easy_ufdc #wpbody-content > .wrap{
+	background-color:#fff;
+	overflow:hidden;
+	max-width:100%;
+}
+.admin_page_easy_ufdc #wpbody-content > .wrap > h2{
+	padding:10px 10px;
+}
+.ufdc-settings table{
+	width:70%;
+	float:left;
+}
+.ufdc-settings .optional {
+  background: rgba(70,125,250,0.8);
+  border-bottom: 1px solid #ddd;
+  border-bottom-left-radius: 6px;
+  border-left: 1px solid #ddd;
+  border-top-left-radius: 6px;
+  float: right;
+  margin: 20px 0;
+  min-height: 600px;
+  padding: 20px 10px 20px 22px;
+  width: 26%;
+  position:relative;
+}
+.ufdc-settings .optional h3 {
+  background: rgba(70, 125, 250, 0.8) none repeat scroll 0 0;
+  border: 0 none;
+  border-top-left-radius: 6px;
+  color: #fff;
+  font-size: 12px;
+  margin: 0;
+  padding: 6px 16px 0;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: -24px;
+}
+.ufdc-settings .optional ul{
+	padding:0;
+	margin:0;
+}
+.ufdc-settings .optional ul li{
+	list-style:none;
+}
+.ufdc-settings .optional ul li label{
+	padding:0;
+	margin:0 0 0 4px;
+	position:relative;
+	top:-1px;
+	font-size:14px;
+	color:#fff;
+}
+.ufdc-settings .optional ul li input{
+	padding:0;
+	margin:0;	
+}
+.ufdc-settings .optional ul li label{
+}
+.ufdc-settings .optional ul li label strong{
+	font-weight:normal;
+}
+.ufdc-settings .optional ul li label strong:nth-child(1),
+.ufdc-settings .optional ul li.selected label strong:nth-child(2){
+	color:#fff;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.ufdc-settings .optional ul li label strong:nth-child(2),
+.ufdc-settings .optional ul li.selected label strong:nth-child(1){
+	color:#FF0;
+	font-weight:normal;
+	text-decoration:line-through;
+}
+.ufdc-settings .optional ul li.selected label strong:nth-child(1){
+	color:#FFF;
+}
+.ufdc-settings .optional ul li.selected label strong:nth-child(2){
+	color:#FF0;
+}
